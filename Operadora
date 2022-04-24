@@ -1,0 +1,27 @@
+Algoritmo "operadora"
+
+Var
+       quantidade : inteiro
+       valor : real
+
+
+Inicio
+        escreva ("Digite a quantidade de minutos: ")
+        leia (quantidade)
+        
+        valor <- 50.0
+        
+        se quantidade > 100 entao
+           valor <- valor + 2 * (quantidade - 100)
+           
+        fimse
+        
+        
+        escreval ("Valor a pagar: R$ " , valor:8:2)
+
+
+
+
+
+
+Fimalgoritmo
