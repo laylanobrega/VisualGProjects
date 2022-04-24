@@ -1,0 +1,34 @@
+Algoritmo "medidas"
+
+
+
+Var
+    medidaA, medidaB, medidaC : real
+    aQuadrado, aTriangulo, aTrapezio : real
+
+
+Inicio
+        escreva ("Digite a medida A: ")
+        leia (medidaA)
+        escreva ("Digite a medida B: ")
+        leia (medidaB)
+        escreva ("Digite a medida C: ")
+        leia (medidaC)
+        
+        
+        aQuadrado <- exp (medidaA, 2)
+        
+        aTriangulo <-  (medidaA * medidaB) / 2
+        
+        aTrapezio <- (medidaA + medidaB) * medidaC  / 2
+        
+        
+        escreval ("AREA DO QUADRADO =  ", aQuadrado:2:4)
+        escreval ("AREA DO TRIANGULO =  ", aTriangulo:2:4)
+        escreval ("AREA DO TRAPEZIO = ", aTrapezio:2:4)
+        
+        
+
+
+
+Fimalgoritmo
