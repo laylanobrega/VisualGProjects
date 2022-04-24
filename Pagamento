@@ -1,0 +1,32 @@
+Algoritmo "pagamento"
+
+
+
+Var
+       nome : caractere
+       valor, pagamento, mes : real
+       horas: inteiro
+
+
+Inicio
+
+        escreva ("Nome: ")
+        leia (nome)
+        escreva ("Valor por hora: ")
+        leia (valor)
+        escreva ("Horas trabalhadas: ")
+        leia (horas)
+
+
+        pagamento <- valor * horas
+        
+        mes <- pagamento * 31
+        
+        
+        escreval ("O pagamento para ", nome, " deve ser ", pagamento:3:2)
+        escreval ("No mês, o pagamento de " , nome, " será de ", mes)
+
+
+
+
+Fimalgoritmo
