@@ -1,0 +1,21 @@
+Algoritmo "circulo"
+
+
+Var
+        r, area : real
+
+
+
+Inicio
+
+         escreva ("Digite o valor do raio do circulo: ")
+         leia (r)
+         
+         pi <- 3.14159
+         
+         area <- (pi * quad(r))
+         
+         
+         
+         
+         escreval ("AREA = " , area:8:3)
