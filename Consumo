@@ -1,0 +1,30 @@
+Algoritmo "consumo"
+
+
+Var
+
+      distancia : inteiro
+      combustivel, media : real
+
+
+Inicio
+
+         escreva ("Distancia percorrida: ")
+         leia (distancia)
+         escreva ("Combustível gasto: ")
+         leia (combustivel)
+         
+         
+         media <- distancia / combustivel
+         
+         escreval ("Consumo medio = ", media:2:3)
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
